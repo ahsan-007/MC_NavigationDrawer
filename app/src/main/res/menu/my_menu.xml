@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <group android:checkableBheavior="single">
+        <item
+            android:id="@+id/nav_book"
+            android:icon="@drawable/ic_baseline_menu_book_24"
+            android:title="Book"
+            />
+        <item
+            android:id="@+id/nav_phone"
+            android:icon="@drawable/ic_baseline_phone_android_24"
+            android:title="Phone"
+            />
+        <item
+            android:id="@+id/nav_laptop"
+            android:icon="@drawable/ic_baseline_laptop_24"
+            android:title="Laptop"
+            />
+        <item
+            android:id="@+id/nav_available"
+            android:icon="@drawable/ic_baseline_accessibility_new_24"
+            android:title="Available"
+            />
+    </group>
+    <item android:title="Reading">
+        <menu>
+            <group android:checkableBehavior="single">
+                <item
+                    android:id="@+id/nav_newspaper"
+                    android:icon="@drawable/ic_baseline_pages_24"
+                    android:title="Newspaper"
+                    />
+                <item
+                    android:id="@+id/nav_magazine"
+                    android:icon="@drawable/ic_baseline_perm_media_24"
+                    android:title="Magazine"
+                    />
+            </group>
+        </menu>
+    </item>
+
+    <item android:title="Work">
+        <menu>
+            <group android:checkableBehavior="single">
+                <item
+                    android:id="@+id/nav_trello"
+                    android:icon="@drawable/ic_baseline_developer_mode_24"
+                    android:title="Trello"
+                    />
+                <item
+                    android:id="@+id/nav_jira"
+                    android:icon="@drawable/ic_baseline_device_hub_24"
+                    android:title="Jira"
+                    />
+                <item
+                    android:id="@+id/nav_Teams"
+                    android:icon="@drawable/ic_baseline_pages_24"
+                    android:title="Teams"
+                    />
+            </group>
+        </menu>
+    </item>
+</menu>
