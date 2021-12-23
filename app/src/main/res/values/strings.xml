@@ -1,3 +1,5 @@
 <resources>
     <string name="app_name">MC_NavigationDrawer</string>
+    <string name="opening">Opening</string>
+    <string name="closing">Closing</string>
 </resources>
